@@ -264,13 +264,19 @@ footer {
     }
 
     #z {
+        text-align: center;
         font-size: 15px;
     }
 
     #title {
+       text-align: center;
         font-size: 50px;
     }
 
+    #rose {
+       text-align: center;
+    }
+    
     footer {
         margin-top: 40px;
     }
