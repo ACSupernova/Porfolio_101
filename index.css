@@ -1,294 +1,294 @@
 .animation {
-    width: 14ch;
-    animation: typing 2s steps(16), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2em;
-}
-
-@keyframes typing {
-    from {
-        width: 0
+        width: 14ch;
+        animation: typing 2s steps(16), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2em;
     }
-}
 
-@keyframes blink {
-    50% {
-        border-color: transparent
+    @keyframes typing {
+        from {
+            width: 0
+        }
     }
-}
 
-header {
-    background-image: url(./Imagens/Background.jpg);
-    position: absolute;
-    width: 100%;
-}
+    @keyframes blink {
+        50% {
+            border-color: transparent
+        }
+    }
 
-ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-}
+    header {
+        background-image: url(./Imagens/Background.jpg);
+        position: absolute;
+        width: 100%;
+    }
 
-li {
-    flex: 1;
-}
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
 
-.head {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    li {
+        flex: 1;
+    }
 
-.link {
-    color: #F33A6A;
-    text-decoration: none;
-    display: inline-block;
-    max-width: 100%;
-}
+    .head {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-body {
-    margin: 0%;
-    background-color: #232326;
-}
+    .link {
+        color: #F33A6A;
+        text-decoration: none;
+        display: inline-block;
+        max-width: 100%;
+    }
 
-#DivImg {
-    background-image: url(./Imagens/Background.jpg);
-    width: 100%;
-    height: 100vh;
-    margin: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+    body {
+        margin: 0%;
+        background-color: #232326;
+    }
 
-#title,
-#z {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    margin: 5px;
-}
+    #DivImg {
+        background-image: url(./Imagens/Background.jpg);
+        width: 100%;
+        height: 100vh;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-#rose,
-#z {
-    font-size: 30px;
-}
+    #title,
+    #z {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin: 5px;
+    }
 
-#title {
-    font-size: 150px;
-}
+    #rose,
+    #z {
+        font-size: 30px;
+    }
 
-#rose {
-    color: #F33A6A;
-    margin: 5px;
-}
+    #title {
+        font-size: 150px;
+    }
 
-h1,
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-}
+    #rose {
+        color: #F33A6A;
+        margin: 5px;
+    }
 
-#text1 {
-    font-size: 60px;
-    border-left: 5px solid #F33A6A;
-    padding: 10px;
-}
+    h1,
+    p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
 
-.box {
-    display: flex;
-    margin: 20px;
-    justify-content: space-between;
-}
-
-.text {
-    font-size: 20px;
-    width: 100%;
-}
-
-.cambox {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    justify-content: space-evenly;
-}
-
-.cam {
-    margin: 5px;
-    width: 40%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.progressbox {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.progress {
-    width: 100%;
-    height: 50px;
-    background-color: #2F2F31;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-#progress_fill {
-    width: 92%;
-    height: 100%;
-    background-color: #F33A6A;
-}
-
-#progress_fill_html {
-    width: 80%;
-    height: 100%;
-    background-color: #F33A6A;
-}
-
-#progress_fill_css {
-    width: 78%;
-    height: 100%;
-    background-color: #F33A6A;
-}
-
-#progress_fill_sql {
-    width: 60%;
-    height: 100%;
-    background-color: #F33A6A;
-}
-
-#progress_fill_humor {
-    width: 100%;
-    height: 100%;
-    background-color: #F33A6A;
-}
-
-.box1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-#me1 {
-    font-size: 60px;
-    border-left: 5px solid #F33A6A;
-    padding: 10px;
-}
-
-#me01 {
-    margin-top: 80px;
-}
-
-.me {
-    width: 100%;
-    font-size: 20px;
-    text-align: justify;
-}
-
-.essay {
-    margin-left: 100px;
-    width: 50%;
-}
-
-#arrow {
-    position: absolute;
-    right: 40px;
-    width: 35px;
-    height: 35px;
-}
-
-footer {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#icon {
-    padding: 10px;
-    color: #f33a6a;
-}
-
-#footertext {
-    color: white;
-}
-
-@media screen and (max-width: 1080px) {
+    #text1 {
+        font-size: 60px;
+        border-left: 5px solid #F33A6A;
+        padding: 10px;
+    }
 
     .box {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0px;
+        margin: 20px;
+        justify-content: space-between;
     }
 
-    .box1 {
-        display: flex;
-        flex-direction: column;
+    .text {
+        font-size: 20px;
         width: 100%;
-        margin: 0px;
     }
 
     .cambox {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 50%;
         justify-content: space-evenly;
     }
 
     .cam {
         margin: 5px;
-        width: 155px;
-        height: 150px;
-        border-radius: 8px;
+        width: 40%;
+        height: auto;
+        border-radius: 10px;
     }
 
     .progressbox {
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
     }
 
-    .essay,
-    .progressbox,
-    .box {
-        width: 90%;
-        margin: 0 auto;
+    .progress {
+        width: 100%;
+        height: 50px;
+        background-color: #2F2F31;
+        border-radius: 10px;
+        overflow: hidden;
     }
 
-    #z {
-        text-align: center;
-        font-size: 15px;
+    #progress_fill {
+        width: 92%;
+        height: 100%;
+        background-color: #F33A6A;
     }
 
-    #title {
-       text-align: center;
-        font-size: 50px;
+    #progress_fill_html {
+        width: 80%;
+        height: 100%;
+        background-color: #F33A6A;
     }
 
-    #rose {
-       text-align: center;
+    #progress_fill_css {
+        width: 78%;
+        height: 100%;
+        background-color: #F33A6A;
     }
-    
+
+    #progress_fill_sql {
+        width: 60%;
+        height: 100%;
+        background-color: #F33A6A;
+    }
+
+    #progress_fill_humor {
+        width: 100%;
+        height: 100%;
+        background-color: #F33A6A;
+    }
+
+    .box1 {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    #me1 {
+        font-size: 60px;
+        border-left: 5px solid #F33A6A;
+        padding: 10px;
+    }
+
+    #me01 {
+        margin-top: 80px;
+    }
+
+    .me {
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .essay {
+        margin-left: 100px;
+        width: 50%;
+    }
+
+    #arrow {
+        position: absolute;
+        right: 40px;
+        width: 35px;
+        height: 35px;
+    }
+
     footer {
-        margin-top: 40px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .footer a {
-        margin-right: 0;
-        margin-bottom: 10px;
+    #icon {
+        padding: 10px;
+        color: #f33a6a;
     }
-}
 
-@media only screen and (min-width: 1081px) and (max-width: 1355px) {
-    #title {
-        font-size: 100px;
+    #footertext {
+        color: white;
     }
-}
+
+    @media screen and (max-width: 1080px) {
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0px;
+        }
+
+        .box1 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0px;
+        }
+
+        .cambox {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
+        .cam {
+            margin: 5px;
+            width: 155px;
+            height: 150px;
+            border-radius: 8px;
+        }
+
+        .progressbox {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .essay,
+        .progressbox,
+        .box {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        #z {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        #title {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        #rose {
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+
+        .footer a {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 1081px) and (max-width: 1355px) {
+        #title {
+            font-size: 100px;
+        }
+    }
